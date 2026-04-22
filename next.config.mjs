@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  transpilePackages: ['@travel-suite/frontend-shared'],
 };
 
 export default nextConfig;
